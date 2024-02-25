@@ -10,6 +10,6 @@ function newObj(obj) {
         
         result[key] = myObj[key]*2
     }
-    console.log(result);
+    return result;
 }
-newObj(myObj);
+console.log( newObj(myObj));
